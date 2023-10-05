@@ -1,0 +1,382 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,a,p {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    min-width: 299px;
+}
+
+/* HEADER START #################################################################################################### */
+/* HEADER START #################################################################################################### */
+
+.header__nav {
+    margin-top: 15px;
+    height: 50px;
+}
+
+.header__nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-ul li a {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.header__nav-ul h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.header__nav-ul-left {
+    display: flex;
+    margin-left: 30px;
+}
+
+.header__nav-ul-right {
+    display: flex;
+    margin-right: 30px;
+}
+
+.header__nav-ul-left .a-2 {
+    margin-left: 10px;
+}
+
+.header-fon {
+    background: url(../img/header-fon.png) no-repeat center/cover;
+    width: 100%;
+    height: 504px;
+}
+
+.header-fon .text {
+    padding-top: 194px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-fon h1 {
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.header-fon p {
+    margin-bottom: 27px;
+    color: #fff;
+}
+
+.header-fon a {
+    color: #fff;
+}
+
+/* HEADER END ###################################################################################################### */
+/* HEADER END ###################################################################################################### */
+
+/* SECTION START ################################################################################################### */
+/* SECTION START ################################################################################################### */
+
+.section h1 {
+    margin-bottom: 23px;
+    font-size: 43px;
+}
+
+.section p {
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.section h2 {
+    font-size: 13px;
+}
+
+.section {
+    margin-top: 80px;
+}
+
+.section__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-block {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-block .left h1 {
+    font-size: 27px;
+}
+
+.section-block .left a {
+    font-size: 13px;
+}
+
+.section-block .right h1 {
+    font-size: 27px;
+}
+
+.section-block .right a {
+    font-size: 13px;
+}
+
+.section-block .text {
+    margin-top: 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section img {
+    width: 100%;
+}
+
+/* SECTION-2 ####################################################################################################### */
+/* SECTION-2 ####################################################################################################### */
+
+.section-2 {
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 h1 {
+    font-size: 33px
+}
+
+.section-2 .p-1 {
+    margin-top: 16px;
+    font-size: 15px;
+    color: #A0A0A0;
+}
+
+.section-2 .products p {
+    font-size: 13px;
+    color: #A0A0A0;
+}
+
+.section-2 .products img {
+    width: 100%;
+}
+
+/* SECTION-3 ####################################################################################################### */
+/* SECTION-3 ####################################################################################################### */
+
+.section-3 {
+    margin-top: 100px;
+    background: url(../img/section-3-fon.png) no-repeat center/cover;
+    width: 100%;
+    height: 504px;
+}
+
+.section-3 h1 {
+    margin-bottom: 14px;
+    font-size: 66px;
+    color: #fff;
+}
+
+.section-3 p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.section-3 a {
+    font-size: 13px;
+    color: #fff;
+}
+
+.section-3 .text {
+    padding-top: 174px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SECTION-4 ####################################################################################################### */
+/* SECTION-4 ####################################################################################################### */
+
+.section-4 {
+    text-align: center;
+    margin-top: 116px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4 .text {
+    max-width: 777px;
+}
+
+.section-4 .text h1{
+    font-size: 34px;
+    margin-bottom: 23px;
+}
+
+.section-4 .text p{
+    font-size: 16px;
+    margin-bottom: 23px;
+    color: #A0A0A0;
+}
+
+.section-4 img {
+    max-width: 1340px;
+    width: 100%;
+}
+
+/* SECTION-5 ####################################################################################################### */
+/* SECTION-5 ####################################################################################################### */
+
+.section-5 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users {
+    max-width: 1365px;
+}
+
+.users img {
+    margin-bottom: 27px;
+    width: 100%;
+}
+
+.section-5 .text {
+    max-width: 789px;
+}
+
+.section-5 .text h1{
+    margin-top: 38px;
+    font-size: 34px;
+    margin-bottom: 23px;
+}
+
+.section-5 .text p{
+    font-size: 16px;
+    margin-bottom: 23px;
+    color: #A0A0A0;
+}
+
+/* SECTION-6 ####################################################################################################### */
+/* SECTION-6 ####################################################################################################### */
+
+.section-6 {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-6 .text h1 {
+    margin-top: 124px;
+    font-size: 34px;
+    margin-bottom: 44px;
+}
+
+.section-6 .text a {
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.section-6 .design {
+    margin-top: 121px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #9AA8B1;
+    width: 100%;
+    height: 404px;
+    margin-bottom: 116px;
+}
+
+.section-6 .design h1{
+    font-size: 43px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.section-6 .design p{
+    font-size: 14px;
+    color: #fff;
+}
+
+/* FOOTER ########################################################################################################## */
+/* FOOTER ########################################################################################################## */
+
+footer {
+    max-width: 1340px;
+    height: 345px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left {
+    display: flex;
+}
+
+footer .left .menu h1{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+footer .left .about h1 {
+    font-size: 22px;
+    margin-bottom: 23px;
+}
+
+footer .right .up {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .left .about p {
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+footer .right .down {
+    margin-top: 264px;
+    display: flex;
+}
+
+footer .right .down h1 {
+    margin-left: 38px;
+    font-size: 13px;
+    color: #707A7F;
+}
+
+footer .right .up img {
+    max-width: 82px;
+    width: 100%;
+}
